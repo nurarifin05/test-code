@@ -1,0 +1,247 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post One",
+      "body": "Ini Adalah json body",
+      "publishedAt": "2021-03-31"
+    },
+    {
+      "title": "sad",
+      "body": "asd",
+      "publishedAt": "2021-01-05",
+      "id": "uWpCQDG"
+    },
+    {
+      "title": "Bukti SPP",
+      "body": "ini dalah pos 4",
+      "publishedAt": "2021-01-06",
+      "id": "9EJ6tPD"
+    },
+    {
+      "title": "Bukti SPP",
+      "body": "ini dalah pos 4",
+      "publishedAt": "2021-01-06",
+      "id": "9EJ6tPD"
+    }
+  ],
+  "Account": [
+    {
+      "id": "1",
+      "id_Account": "1",
+      "name": "admin",
+      "description": "123",
+      "email": "arifin@example.com",
+      "address": "jakarta",
+      "telpon": "081336524010",
+      "status": "aktif",
+      "register_date": "2021-03-31",
+      "expired_date": "2022-03-31",
+      "clean_data": "3 Bulan",
+      "Modul_Name": "lorem ipsum"
+    },
+    {
+      "id_Account": "sds",
+      "name": "assets",
+      "description": "sd",
+      "email": "muhamadnurarifin.17@fik.narotama.ac.id",
+      "telepon": "fdsfs",
+      "status": "ds",
+      "register_date": "2021-01-04",
+      "expired_date": "2021-01-30",
+      "clean_data": "10 bulan",
+      "Modul_Name": "asd",
+      "id": "8We4Qls"
+    }
+  ],
+  "Modul": [
+    {
+      "id": "01",
+      "Id_modul": "rea",
+      "Name": "arifin",
+      "Description": "ini adalah reader 1"
+    },
+    {
+      "id": "02",
+      "Id_modul": "rea",
+      "Name": "arifin",
+      "Description": "fs"
+    },
+    {
+      "id": "g",
+      "Id_modul": "sd",
+      "Name": "arifin",
+      "Description": "fs"
+    }
+  ],
+  "Modul_entri": [
+    {
+      "id": "01",
+      "Id_modul_entri": "123",
+      "Name": "arifin",
+      "Description": "Ini adalah bagian 1",
+      "Id_modul": "ini modul",
+      "id_modul_entri": "qw"
+    },
+    {
+      "id": "02",
+      "id_modul_entri": "qw",
+      "Name": "arifin",
+      "Description": "ini adalah reader 2",
+      "Id_modul": "rea"
+    }
+  ],
+  "Locations": [
+    {
+      "id": "01",
+      "id_location": "123",
+      "name": "Surabaya",
+      "description": "Ini adalah gudang surabaya",
+      "id_Account": "pt. arifin",
+      "Id_Account": "123"
+    },
+    {
+      "id": "02",
+      "id_location": "231",
+      "name": "Muhamad Nur Arifin",
+      "description": "sd",
+      "Id_Account": "123"
+    }
+  ],
+  "Readers": [
+    {
+      "id": "02",
+      "name": "assets",
+      "description": "sd",
+      "Device_ID": "2342",
+      "id_Account": "sds",
+      "id_location": "231",
+      "Inventory_trx_type": "in / out"
+    }
+  ],
+  "Tags": [
+    {
+      "id": "02",
+      "tag_number": "04113475933212",
+      "description": "ini adalah meja",
+      "assignt type": "lorem ipsum",
+      "asignment": "lorem ipsum",
+      "id_Account": "123456",
+      "asignt type": "anu",
+      "id_location": "231"
+    },
+    {
+      "id": "03",
+      "tag_number": "04113475933212",
+      "description": "ini adalah meja",
+      "assignt type": "lorem ipsum",
+      "asignment": "lorem ipsum",
+      "id_Account": "123456",
+      "asignt type": "anu",
+      "id_location": "231"
+    }
+  ],
+  "Log_Data": [
+    {
+      "id": "01",
+      "tag_number": "04113475933212",
+      "timestamp": "2020-01-05 14.30.00",
+      "Device_ID": "AGL123",
+      "id_Account": "09212342",
+      "id_location": "Surabaya 001",
+      "Inventory_trx_type": "in / out system monitoring"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Arifin",
+      "email": "arifin@example.com"
+    },
+    {
+      "name": "sfdsdfs",
+      "email": "seng nggenah@gmail",
+      "id": "FIylNXN"
+    },
+    {
+      "name": "sada",
+      "email": "muhammadhusnulhakim66@gmail.com",
+      "id": "5zS6qN6"
+    },
+    {
+      "name": "Muhamad Nur Arifin",
+      "email": "muhammadhusnulhakim66@gmail.com",
+      "id": "XNg7rfa"
+    }
+  ],
+  "employee": [
+    {
+      "id": "01",
+      "Emp_id": "123456",
+      "Emp_code": "lorem ipsumasasasdasa",
+      "Name": "Muhamad Nur Arifin",
+      "Birthdate": "05/01/1999",
+      "Gender": "Laki-Laki",
+      "Age": "22",
+      "tag_number": "04113475933212",
+      "id_Account": "123456"
+    },
+    {
+      "id": "03",
+      "Emp_id": "sfdsqwe1sadada2",
+      "Emp_code": "sada",
+      "Name": "arifin",
+      "Birthdate": "1999-01-05",
+      "Gender": "dadqw",
+      "Age": "werw32",
+      "tag_number": "3242432412121dasda",
+      "id_Account": "asdaqwqad12"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "Item_id": "00001",
+      "Item_code": "12384762623322112",
+      "Item_category": "assigment",
+      "Item_Type": "Barang",
+      "SKU": "1234566",
+      "Name": "Muhamad Nur Arifin",
+      "Decription": "ini adalah barang yang digunakan",
+      "Uom": "8234612y1",
+      "Quantity": "123",
+      "tag_number": "04113475933212",
+      "id_Account": "123456"
+    },
+    {
+      "id": "02",
+      "Item_id": "123",
+      "Item_code": "1244",
+      "Item_category": "orang",
+      "Item_Type": "pegawai",
+      "SKU": "1212",
+      "Name": "arifin05",
+      "Decription": "manusia",
+      "Uom": "123",
+      "Quantity": "1",
+      "tag_number": "2134312222312312121",
+      "id_Account": "2341"
+    }
+  ],
+  "Transaction_Receive": [
+    {
+      "id": "01",
+      "Device_ID": "AGL12312",
+      "id_Account": "123456",
+      "id_location": "Surabaya 001",
+      "item_id": "123124",
+      "UoM": "12312wq",
+      "Quantity": "123",
+      "Line_number": "12312",
+      "Rack_number": "333212",
+      "Bin_number": "123132",
+      "Time_Enter": "12:11:01",
+      "status": "aktif"
+    }
+  ]
+}
